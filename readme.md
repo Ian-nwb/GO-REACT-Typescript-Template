@@ -14,7 +14,7 @@ A modular Go backend built for high-concurrency and speed.
 - `internal/repository/`: Handles all database interactions (SQL/NoSQL).
 - `internal/models/`: Data structures and schemas.
 
-### 2. Client (`/frontend`)
+### 2. Client (`/client`)
 
 A modern frontend optimized for developer experience and performance.
 
@@ -57,7 +57,7 @@ Complete containerized environment managed via `docker-compose.yaml`.
 2.  **Install Frontend Dependencies**:
 
     ```bash
-    cd frontend
+    cd client
     npm install
     cd ..
     ```
@@ -104,7 +104,7 @@ go run cmd/api/main.go
 #### Run Frontend:
 
 ```powershell
-cd frontend
+cd client
 npm run dev
 ```
 
